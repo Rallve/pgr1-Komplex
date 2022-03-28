@@ -31,6 +31,9 @@ public class KomplexTest {
         System.out.println("Argumentet till 3+2i är " + a.arg());
         if (a.arg() == Math.atan(2.0/3)) {
             System.out.println("arg() funkar!!");
+
         }
+
+
     }
 }

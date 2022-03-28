@@ -12,7 +12,17 @@ public class Komplex {
         return java.lang.Double.compare(komplex.real, real) == 0 && java.lang.Double.compare(komplex.img, img) == 0;
     }
 
+    @java.lang.Override
+    public java.lang.String toString() {
+        return "Komplex{" +
+                "real=" + real +
+                ", img=" + img +
+                '}';
+    }
+
     public int hashCode() {
         return Objects.hash(super.hashCode(), real, img);
+
+
     }
 }
