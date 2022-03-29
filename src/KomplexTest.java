@@ -16,10 +16,12 @@ public class KomplexTest {
         Komplex d = new Komplex(7,3);
 
         System.out.println(c);
+
+        System.out.println(c);
         if (c.equals(d)) {
             System.out.println("add funkar!!");
         }
-
+/*
         c = a.multiply(b);
         d = new Komplex(10,11);
 
@@ -34,6 +36,7 @@ public class KomplexTest {
 
         }
 
-
+ */
     }
+
 }
